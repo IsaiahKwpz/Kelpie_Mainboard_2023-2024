@@ -1472,7 +1472,7 @@
 			(pintype "unspecified")
 			(uuid "fe52ed4d-43d7-4edf-81ed-2108616a26a4")
 		)
-		(model "E:/Kelpie/Year 1/MainBoard_GitHub/3d Models/TSW-103-08-T-T-RA_SAI.step"
+		(model "${MAINBOARD_3D_YEAR_ONE}/TSW-103-08-T-T-RA_SAI.step"
 			(offset
 				(xyz 5 1.5 8.5)
 			)
