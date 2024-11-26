@@ -2987,7 +2987,7 @@
 			(pintype "bidirectional")
 			(uuid "6ffea31d-cb25-4315-90c5-d499d73cd8dd")
 		)
-		(model "E:/Kelpie/Year 1/MainBoard_GitHub/3d Models/MR60PW-M_3D_DRAWING (1).STEP"
+		(model "${MAINBOARD_3D_YEAR_ONE}/MR60PW-M_3D_DRAWING (1).STEP"
 			(offset
 				(xyz 23 -10.5 8.5)
 			)
@@ -2998,7 +2998,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "E:/Kelpie/Year 1/MainBoard_GitHub/3d Models/MR60PW-M_3D_DRAWING (1).STEP"
+		(model "${MAINBOARD_3D_YEAR_ONE}/MR60PW-M_3D_DRAWING (1).STEP"
 			(offset
 				(xyz -27 -10.5 8.5)
 			)
@@ -3009,7 +3009,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "E:/Kelpie/Year 1/MainBoard_GitHub/3d Models/MR60PW-M_3D_DRAWING (1).STEP"
+		(model "${MAINBOARD_3D_YEAR_ONE}/MR60PW-M_3D_DRAWING (1).STEP"
 			(offset
 				(xyz -1.5 -10.5 8.5)
 			)
@@ -5171,15 +5171,15 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "169017ff-e133-4834-8452-8d67ddba58df")
 		)
-		(model "E:/Kelpie/Year 1/Kelpie_MainBoard(2023-2024)/3d Models/OPI-5PLUS-PCBA.stp"
+		(model "${MAINBOARD_3D_YEAR_ONE}/OPI-5PLUS-PCBA.stp"
 			(offset
-				(xyz 32 -40 -30)
+				(xyz -32 -40 30)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz 180 0 1)
 			)
 		)
 	)
@@ -6716,6 +6716,17 @@
 			(pinfunction "SDA")
 			(pintype "bidirectional")
 			(uuid "a01adb37-ffc5-49d5-8d55-aeb82dcd0f2f")
+		)
+		(model "${MAINBOARD_3D_YEAR_ONE}/SHT30-Purple Straight Pins.step"
+			(offset
+				(xyz 0 12.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
@@ -8333,7 +8344,7 @@
 			(pintype "power_in+no_connect")
 			(uuid "8b73eec6-48be-44f5-b76c-d8d8e84363b1")
 		)
-		(model "E:/Kelpie/Year 1/MainBoard_GitHub/3d Models/Pico-R3.step"
+		(model "${MAINBOARD_3D_YEAR_ONE}/Pico-R3.step"
 			(offset
 				(xyz -11.8 -34.3 0.75)
 			)
@@ -8929,7 +8940,7 @@
 			(pintype "input")
 			(uuid "7df914bb-ecdd-4138-bd13-ab1c35027cc4")
 		)
-		(model "E:/Kelpie/Year 1/Kelpie_MainBoard(2023-2024)/3d Models/L298N Driver DC Motor, Stepper Motor.STEP"
+		(model "${MAINBOARD_3D_YEAR_ONE}/L298N Driver DC Motor, Stepper Motor.STEP"
 			(offset
 				(xyz 111 69.5 16)
 			)
